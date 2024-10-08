@@ -1,4 +1,4 @@
-# De-cloaking Websites Using Geo-Filtering Detection
+# De-cloaking Websites Utilizing Geo-Filtering
 
 The script accepts a list of URLs, each on one line. For each URL, it queries the ChatGPT API to determine if the URL includes any geolocation data, then returns **ONLY** the country code. The country code is then compared against a list of proxies, and the matching country code proxy is used to take a screenshot of the website through **Pyppeteer**. This script is intended to be used for de-cloaking websites that are using geo-filtering.
 
